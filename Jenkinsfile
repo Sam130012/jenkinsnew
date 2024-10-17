@@ -15,5 +15,11 @@ date'''
       }
     }
 
+    stage('test3') {
+      steps {
+        sh 'echo "rmsms"'
+      }
+    }
+
   }
 }
